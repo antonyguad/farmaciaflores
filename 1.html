@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Barra lateral</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+		.container {
+			display: flex;
+			flex-direction: row;
+			height: 100vh;
+		}
+		.sidebar {
+			background-color: #333;
+			color: #fff;
+			width: 200px;
+			padding: 20px;
+		}
+		.main-content {
+			flex: 1;
+			padding: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="sidebar">
+			<h2>Barra lateral</h2>
+			<p>Contenido de la barra lateral</p>
+		</div>
+		<div class="main-content">
+			<h1>Título de la página</h1>
+			<p>Contenido principal de la página</p>
+		</div>
+	</div>
+</body>
+</html>
